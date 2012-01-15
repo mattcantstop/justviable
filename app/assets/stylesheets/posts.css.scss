@@ -1,0 +1,58 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#welcome {
+	height: 400px;
+}
+	#welcome h1, #welcome h2 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+.box {
+	width: 306px;
+	height: 380px;
+	background: blue;
+	position: relative;
+	outline: 1px solid #ebebeb;
+	float: left;
+	margin: 0 20px 20px 0;;
+	background: url('') bottom right;
+}
+	.box.last {
+		margin-right: 0;
+	}
+	.box-title {
+		width: 306px;
+		height: 25px;
+		padding: 15px 0;
+		position: absolute;
+		bottom: 80px;
+		left: 0;
+		opacity: .5;
+		text-align: center;
+		color: white;
+		background: black;
+	}
+	.box p {
+		margin: 10px 15px;
+	}
+	.box img {
+		width: 306px;
+		height: 300px;
+		border-bottom: 4px solid blue;
+	}
+#results {
+	height: 500px;
+}
+	#results h2 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+#portfolio {
+	height: 500px;
+}
+	#portfolio h2 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
