@@ -1,0 +1,5 @@
+<%= form_for @post do |p| %>
+<%= p.text_field :title, placeholder: "Title" %>
+<%= p.text_area :content, placeholder: "Content" %>
+<%= p.submit "Submit" %>
+<% end %>
