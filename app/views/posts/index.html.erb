@@ -1,6 +1,8 @@
 	<%= notice %>
 
 	<% @posts.each do |p| %>
-	<%= p.title %>
+	<a href="/" rel="index"><%= p.title %></a>
 	<%= p.content %>
 	<% end %>
+	
+	
