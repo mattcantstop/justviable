@@ -3,27 +3,37 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #welcome {
-	height: 400px;
+	width: 1440px;
+	height: 625px;
+	margin: 0 auto;
+	background: url('/assets/mountains.png') no-repeat scroll 50% 0px;
 }
 	#welcome h1, #welcome h2 {
 		text-align: center;
 		text-transform: uppercase;
+		color: #222;
+		text-shadow: 0px 2px 3px #555;
+	}
+	#welcome #heading {
+		width: 872px;
+		height: 112px;
+		margin: 0 auto;
+		padding-top: 50px;
 	}
 .box {
-	width: 306px;
-	height: 380px;
-	background: blue;
+	width: 299px;
+	height: 360px;
 	position: relative;
-	outline: 1px solid #ebebeb;
 	float: left;
-	margin: 0 20px 20px 0;;
-	background: url('') bottom right;
+	margin: 20px 20px -19px 0;
+	padding-bottom: 19px;
+	background: url('/assets/box-bottom.png') no-repeat bottom right #fff;
 }
 	.box.last {
 		margin-right: 0;
 	}
 	.box-title {
-		width: 306px;
+		width: 299px;
 		height: 25px;
 		padding: 15px 0;
 		position: absolute;
@@ -35,15 +45,16 @@
 		background: black;
 	}
 	.box p {
-		margin: 10px 15px;
+		margin: 2px 15px;
 	}
 	.box img {
-		width: 306px;
+		width: 299px;
 		height: 300px;
 		border-bottom: 4px solid blue;
 	}
 #results {
 	height: 500px;
+	padding-top: 40px;
 }
 	#results h2 {
 		text-align: center;
