@@ -6,6 +6,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/assets/favicon.png">
 </head>
 <body>
 
@@ -17,7 +18,7 @@
 				<li><a href="">About</a></li>
 				<li><a href="">Portfolio</a></li>
 			</ul>
-			<div id="logo">JUSTVIABLE</div>
+			<div id="logo"><%=image_tag "logo.png", :alt => "JustViable" %></div>
 			<ul id="nav-right">
 				<li><a href="">Contact</a></li>
 				<li><a href="/posts">Blog</a></li>
@@ -29,10 +30,10 @@
 <%= yield %>
 
 <footer>
+	<div id="color-stripe"></div>
 	<div class="container">
 		<script language="JavaScript"> document.write('&copy; ' + (new Date()).getFullYear()); </script> Just Viable
 	</div>
-	<div id="color-stripe"></div>
 </footer>
 
 </body>
